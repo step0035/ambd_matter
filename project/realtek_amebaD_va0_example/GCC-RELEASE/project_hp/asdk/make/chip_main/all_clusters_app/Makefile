@@ -92,6 +92,7 @@ CPPSRC += $(CHIPDIR)/src/app/util/attribute-storage.cpp
 CPPSRC += $(CHIPDIR)/src/app/util/attribute-table.cpp
 CPPSRC += $(CHIPDIR)/src/app/util/attribute-size-util.cpp
 CPPSRC += $(CHIPDIR)/src/app/util/binding-table.cpp
+CPPSRC += $(CHIPDIR)/src/app/util/ClientMonitoringRegistrationTable.cpp
 CPPSRC += $(CHIPDIR)/src/app/util/DataModelHandler.cpp
 CPPSRC += $(CHIPDIR)/src/app/util/ember-compatibility-functions.cpp
 CPPSRC += $(CHIPDIR)/src/app/util/ember-print.cpp
@@ -121,7 +122,6 @@ CPPSRC += $(CHIPDIR)/examples/all-clusters-app/ameba/main/DeviceCallbacks.cpp
 CPPSRC += $(CHIPDIR)/examples/all-clusters-app/ameba/main/CHIPDeviceManager.cpp
 CPPSRC += $(CHIPDIR)/examples/all-clusters-app/ameba/main/Globals.cpp
 CPPSRC += $(CHIPDIR)/examples/all-clusters-app/ameba/main/LEDWidget.cpp
-CPPSRC += $(CHIPDIR)/examples/all-clusters-app/ameba/main/DsoHack.cpp
 
 CPPSRC += $(CHIPDIR)/examples/platform/ameba/ota/OTAInitializer.cpp
 CPPSRC += $(CHIPDIR)/examples/platform/ameba/shell/launch_shell.cpp
